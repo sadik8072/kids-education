@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* nav-styles */
+ 
+  .nav-parent{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+  }
+  .nav-logo{
+    display: flex;
+  }
+  .nav-logotittle{
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .nav-logo{
+    align-items: center;
+  }
+  .nav-org-logo{
+    width: 62px;
+    height: 62px;
+  }
+  .nav-header{
+    width: 1060px;
+    margin: 0 auto;
+  }
+  .nav-mid{
+    display: flex; 
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-Orange, .nav-sky, .nav-past, .nav-blue{
+    text-decoration: none;
+  }
+  .nav-Orange{
+    color: orange;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .nav-sky{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .nav-past{
+      color: #05D4DF;
+      font-size: 20px;
+    font-weight: 700;
+  }
+  .nav-blue{
+   color: #5D58EF;
+   font-size: 20px;
+    font-weight: 700;
+  }
+  .btn-contact{
+    font-family: Quicksand;
+    width: 76px;
+    color: white;
+    background-color: #FEA301;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    width: 140px;  
+  }
+/* banner-style */
+.banner-text{
+  margin-right: 50px;
+}
+.banner-parent{
+  display: flex;
+  align-items: center;
+}
+.banner-tittle{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.Empowering{
+  color: orange;
+}
+.towards-vision{
+  color: #01ACFD;
+}
+.banner-discription{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.bnt-enroll{
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500;
+  color:white;
+  border-radius: 12px;
+  background-color: black;
+  width: 155px;
+  height: 50px;
+}
+/* card-section-style */
+.backgroung-img{
+  background-image: url(../assets/bg.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 80;
+  
+  
+}
+.card-section{
+  width: 1060px;
+  margin: 0 auto;
+}
+.card-head{
+  font-size: 40px;
+ font-weight: 600;
+ text-align: center;
+ margin-top: 50px;
+}
+/* card-style */
+.card-controler{
+  display: flex;
+  gap: 25px;
+  margin-top: 80px;
+}
+
+.card-blue{
+ text-align: center;
+ padding: 45px 40px;
+ border: 0.94px solid rgb(222, 245, 255);
+ border-radius: 18px;
+ box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.blue-tittle{
+  font-size: 22px;
+  font-weight: 700;
+}
+.blue-discription{
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+  margin-bottom: 35px;
+}
+.blue-btn{
+  color: #64C8FF;
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+}
+
+.card-orange{
+  text-align: center;
+  padding: 45px 40px;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255)
+}
+.orange-tittle{
+  font-size: 22px;
+  font-weight: 700;
+}
+.orange-discription{
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+  margin-bottom: 35px;
+}
+.orange-btn{
+  color: #F0AA00;
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+}
+.card-pitti{
+  text-align: center;
+  padding: 45px 40px;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.pitti-tittle{
+  font-size: 22px;
+  font-weight: 700;
+}
+.pitti-discription{
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 500;
+  color: #808080;
+  margin-bottom: 35px;
+  
+}
+.pitti-btn{
+  color: #8700FF;
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+}
+
