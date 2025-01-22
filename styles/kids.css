@@ -216,4 +216,172 @@ background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0)
   background-color: white;
   border: none;
 }
+/* slide-button */
+.colorful-card-header{
+  width: 1060px;
+  margin: 0 auto;
+}
 
+.slide-container{
+   text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  }
+  .previous {
+    font-family: Font Awesome 5 Free;
+    justify-content: center;
+    background-color:orange;
+    color:white;
+    text-decoration: none;
+    padding: 12px 22px;
+    font-size: 24px;
+    font-weight: 900;
+
+  }
+  .next{
+    font-family: Font Awesome 5 Free;
+    justify-content: center;
+    background-color:orange;
+    color:white;
+    padding: 12px 22px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  .round{
+    border-radius: 30px;
+  }
+ 
+  /* next-colorful-card-style */
+  .bg-image{
+    
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  
+  .section-margin{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .our-stories{
+    font-size: 43px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .colorful-card-container{
+  display: flex;
+ }
+ .fours-story{
+display: grid;
+grid-template-columns: repeat(2 ,1fr);
+margin-left: 15px;
+margin-right: 130px;
+gap: 15px;
+ }
+ .view-all{
+  width: 180px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color:white; 
+  
+ }
+ .view-btn{
+  text-align: center;
+ }
+ .story-first{
+  width: 500px;
+  height: 560px;
+  border-radius: 16px;
+  background: white;
+ }
+ .smallgirl-smallboy{
+  width: 500px;
+  border-radius: 16px 16px 0px 0px;
+ }
+ .past-color-btn{
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 45px;
+  background-color: #3CD8E8;
+  padding: 12px 16px;
+  border: none;
+  margin-left: 35px;
+  transform: translateY(-20px);
+ }
+.first-story-tittle{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 33px;
+  margin-left: 35px;
+}
+.fist-story-discription{
+  font-family: Raleway;
+  color: #666666;
+  font-size: 13px;
+  margin-top: 48px;
+  margin-left:35px ;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.second-card, .fiveth-card, .third-card, .fourth-card{
+  width: 250px;
+  border-radius: 16px;
+  background: white;
+}
+
+.second-card-img, .third-card-img, .fourth-card-img, .fiveth-card-img{
+  border-radius: 16px 16px 0px 0px;
+  width: 250px;
+}
+.second-btn, .fourth-btn, .fiveth-btn{
+  color: white;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 400;
+  width: 150px;
+  height: 32px;
+  border-radius: 45px;
+  background-color: #95B226;
+  border: none;
+  margin-left: 35px;
+  margin-top: -100px;
+
+}
+.third-btn{
+  color: white;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 400;
+  width: 150px;
+  height: 32px;
+  border-radius: 45px;
+  background-color: #5D58F0;
+  border: none;
+  
+}
+.footer-background{
+  background-color: #01ACFD;
+  height: 400px;
+}
+.image-container{
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  padding-top: 100px;
+  
+}
+.logo-flex{
+  display: flex;
+}
