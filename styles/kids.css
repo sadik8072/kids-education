@@ -264,7 +264,7 @@ background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0)
   
   
   .section-margin{
-    max-width: 1060px;
+    max-width: px;
     margin: 0 auto;
   }
   .our-stories{
@@ -424,7 +424,56 @@ font-weight: 450;
  display: none;
 }
 @media screen and (max-width:576px) {
-  .backgroung-img{
+  .banner-parent{
+    flex-direction:column-reverse;
+    align-items: start;
+    justify-content: center;
+  }
+  .bnt-enroll{
+    text-align: center;
+  }
+  
+    .card-controler{
     flex-direction: column;
   }
+  .card-section{
+    width: 320px;
+    margin: 0 auto;
+  }
+  .story-first{
+    display: none;
+  }
+  .section-margin{
+    max-width: px;
+    margin: 0 auto;
+  }
+  .fours-story{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .image-container{
+   flex-direction: column;
+  }
+  
+.footer-background{
+  height: 100%;
 }
+
+.scholl-tittle{
+  text-align: left;
+}
+.second-card, .fiveth-card, .third-card, .fourth-card{
+  width: 170px;
+}
+.second-card-img, .third-card-img, .fourth-card-img, .fiveth-card-img{
+  width: 170px;
+}
+.second-btn, .fourth-btn, .fiveth-btn{
+  margin-left: 10px;
+}
+.third-btn{
+  margin-left: 10px;
+}
+
+  }
+  
