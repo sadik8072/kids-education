@@ -474,6 +474,29 @@ font-weight: 450;
 .third-btn{
   margin-left: 10px;
 }
-
+.slide-container{
+  display: none;
+}
+.banner-text{
+  
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.nav-mid, .nav-last{
+  display: none;
+}
+.nav-header{
+  width: 500px;
+  margin: 0 auto;
+}
+.card-section{
+  width: 500px;
+  margin: 0 auto;
+  }
+  .card-blue, .card-orange, .card-pitti{
+    width: 300px;
+    margin: 0 auto;
+  }
   }
   
